@@ -1,7 +1,7 @@
 
 # Predict Photometric Redshift (Photo-Z) 
 
-This tool uses are random forest regression to predict photometric redshift of galaxies using features from PanSTARRS and unWISE survey data. It is tested against spectroscopic redshift estimates from SDSS survey. The training and testing of this model/data can be seen in the `train_test` directory, while the cross-matching of SDSS, PanSTARRS, and unWISE sources is shown in the `xmatch` directory. 
+This tool uses a random forest regression to predict photometric redshift of galaxies using features from PanSTARRS and unWISE survey data. It is tested against spectroscopic redshift estimates from SDSS survey. The training and testing of this model/data can be seen in the `train_test` directory, while the cross-matching of SDSS, PanSTARRS, and unWISE sources is shown in the `xmatch` directory. 
 
 The `photoz_reg.pkl`, `main.py`, `example_data.csv`, and `predict_photoz.yaml` files contain the saved model, the script to run the model, an example of data that can be run on this tool, and the enviornment on which this tool can run respectively. 
 
