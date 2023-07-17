@@ -12,7 +12,7 @@ The `photoz_reg.pkl`, `main.py`, `example_data.csv`, and `predict_photoz.yaml` f
 
 2. Create an identical Conda environment by running `conda env create -f predict_photoz.yaml` in the terminal
 
-3. Locate/download the following features of an object: `ps_gpsfmag,	ps_rpsfmag, ps_ipsfmag, ps_zpsfmag, ps_ypsfmag, ps_gkronmag	ps_rkronmag, ps_ikronmag, ps_zkronmag, ps_ykronmag, unwise_w1_mag_ab, unwise_w1_mag_vega, unwise_w2_mag_ab, unwise_w2_mag_vega`
+3. Locate/download the following features of an object: `ps_gpsfmag,ps_rpsfmag,ps_ipsfmag,ps_zpsfmag,ps_ypsfmag,ps_gkronmag,ps_rkronmag,ps_ikronmag,ps_zkronmag,ps_ykronmag,unwise_w1_mag_ab,unwise_w1_mag_vega,unwise_w2_mag_ab,unwise_w2_mag_vega`
 
 4. Create a .csv file that follows the template of `example_data.csv` with the aformentioned features OR simply revise example_data.csv to include new targets features.
 
