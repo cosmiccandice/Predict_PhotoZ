@@ -10,17 +10,19 @@ The `photoz_reg.pkl`, `main.py`, `example_data.csv`, and `predict_photoz.yaml` f
 
 1. Download `photoz_reg.pkl`, `main.py`,`example_data.csv`, and `predict_photoz.yaml` into any local directory.
 
-2. Create an identical Conda environment by running `conda env create -f predict_photoz.yaml` in the terminal
+2. In the terminal, navigate to the directory where the aformentioned files are stored.
 
-3. Locate/download the following features of an object: `ps_gpsfmag,ps_rpsfmag,ps_ipsfmag,ps_zpsfmag,ps_ypsfmag,ps_gkronmag,ps_rkronmag,ps_ikronmag,ps_zkronmag,ps_ykronmag,unwise_w1_mag_ab,unwise_w1_mag_vega,unwise_w2_mag_ab,unwise_w2_mag_vega`
+3. Create an identical Conda environment by running `conda env create -f predict_photoz.yaml` in the terminal
 
-4. Create a .csv file that follows the template of `example_data.csv` with the aformentioned features OR simply revise example_data.csv to include new targets features.
+4. Locate/download the following features of an object: `ps_gpsfmag,ps_rpsfmag,ps_ipsfmag,ps_zpsfmag,ps_ypsfmag,ps_gkronmag,ps_rkronmag,ps_ikronmag,ps_zkronmag,ps_ykronmag,unwise_w1_mag_ab,unwise_w1_mag_vega,unwise_w2_mag_ab,unwise_w2_mag_vega`
 
-5. Run `main.py` by running `python main.py` in the terminal
+5. Create a .csv file that follows the template of `example_data.csv` with the aformentioned features OR simply revise example_data.csv to include new targets features.
 
-6. When prompted, enter the name of your file (e.g. `example_data.csv`) or press enter to run the tool with data from `example_data.csv`
+6. Run `main.py` by running `python main.py` in the terminal
 
-7. Program will return the data of the features you entered and the predicted photometric redshift. 
+7. When prompted, enter the name of your file (e.g. `example_data.csv`) or press enter to run the tool with data from `example_data.csv`
+
+8. Program will return the data of the features you entered and the predicted photometric redshift. 
    
 Results from running `example_data.py` should look like this:
 
